@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500&display=swap');
+body{
+    background-image: url(images/img1.png);
+    background-color: black;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+    background-attachment: fixed;
+}
+
+@media screen and (min-width: 1920px){
+    body{
+        background-image: url(images/img1_big.png);
+    }
+}

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br" onclick="audio1.play();">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="glitch.css">
+    <title>...</title>
+</head>
+<body>
+    <audio id="audio1" loop webkit-playsinline="true" playsinline="true" autoplay="" >
+        <source src="audios/ambietnain.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+    </audio>
+    <audio id="audio2" webkit-playsinline="true" playsinline="true">
+        <source src="audios/its_me.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+    </audio>
+    <audio id="audio3" loop webkit-playsinline="true" playsinline="true">
+        <source src="audios/he.mpeg" type="audio/mpeg">
+        Your browser does not support the audio element.
+    </audio>   
+    <div class="hero-container">
+        <div class="environment"></div>
+        <h2 class="hero glitch layers" data-text="Restam: ??:??:??"><div id="countdown"></div></h2>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="/bower_components/jquery.countdown/dist/jquery.countdown.js"></script>    
+    <script src="script.js" type="text/javascript"></script>
+</body>
+</html>
