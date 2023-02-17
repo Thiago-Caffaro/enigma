@@ -5,11 +5,12 @@ var audio2 = document.getElementById("audio2");
 var audio3 = document.getElementById("audio3");
 
 $("#countdown")
-.countdown(`2023/02/17 17:15:00`, function(event) {
+.countdown(`2023/02/17 19:00:00`, function(event) {
   $(this).text(
     event.strftime('Restam %H:%M:%S')
   );
 }).on('finish.countdown', function() {
+  clock.classList.add('sumir');
   body.style.backgroundImage = "url(images/img2.png)";
   audio1.pause();
   audio2.play();
